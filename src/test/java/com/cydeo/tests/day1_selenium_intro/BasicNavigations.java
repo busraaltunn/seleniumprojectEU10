@@ -15,6 +15,13 @@ public class BasicNavigations {
         //This is the line opening and empty browser
         WebDriver driver = new ChromeDriver();
 
+
+        //This line will maximize the browser size
+        driver.manage().window().maximize();
+
+        //This line will fullscreen the browser size
+        //driver.manage().window().fullscreen();
+
         //3-Go to "https://www.tesla.com"
         driver.get("https://www.tesla.com");
 
@@ -48,6 +55,12 @@ public class BasicNavigations {
 
         //get the title of the page
         System.out.println("currentTitle:" + currentTitle);
+
+        //This will close the currently opened window
+        driver.close();
+
+        //This will close all of the opened window
+        driver.quit();
 
 
 
