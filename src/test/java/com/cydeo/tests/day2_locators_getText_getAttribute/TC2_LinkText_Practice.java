@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class T2_LinkText_Practice {
+public class TC2_LinkText_Practice {
     public static void main(String[] args) {
 
         //TC #2: Back and forth navigation
